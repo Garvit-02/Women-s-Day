@@ -7,7 +7,41 @@ Full-stack MERN application to celebrate International Women's Day with inspirat
 - **Frontend**: React (Vite), React Router, TailwindCSS, Axios
 - **Backend**: Node.js, Express.js, MongoDB (Mongoose), JWT, bcrypt, Multer, Cloudinary
 
+## Features
+
+### Home Page
+
+The landing page features an inspiring hero section with quotes and navigation to explore the platform.
+![Home Page](./screenshots/home.png)
+
+### Achievers Gallery
+
+Browse and celebrate inspirational women achievers with their stories and achievements.
+![Achievers Gallery](./screenshots/achievers.png)
+
+### Submit Your Story
+
+Share your own story with optional image upload to inspire others.
+![Submit Story](./screenshots/submit-story.png)
+
+### Safety Map
+
+View and contribute to a map of safe locations and resources for women.
+![Safety Map](./screenshots/safety-map.png)
+
+### AI Mentor
+
+Get guidance and support through AI-powered mentoring tools.
+![AI Mentor](./screenshots/ai-mentor.png)
+
+### Admin Dashboard
+
+Manage users, stories, and achievers through a comprehensive admin interface.
+![Admin Dashboard](./screenshots/admin-dashboard.png)
+
 ---
+
+## Folder Structure
 
 ## Folder Structure
 
@@ -131,4 +165,3 @@ Open the app at `http://localhost:5173`.
 - Set `NODE_ENV=production` for production deployments.
 - Use HTTPS in production and secure cookies/headers at the reverse proxy layer.
 - Configure CORS in `backend/utils/server.js` to match your deployed frontend origin.
-
